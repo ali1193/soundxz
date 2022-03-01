@@ -16,7 +16,7 @@ class CreateUserSeeder extends Seeder
         $user->name = 'User';
         $user->email = 'user@gmail.com';
         $user->password = bcrypt('password'); 
-        $user->number = '03356789877';
+        $user->number = '03224028090';
         $user->countory_id='1';       
         $user->save();
     }

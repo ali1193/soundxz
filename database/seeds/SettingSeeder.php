@@ -13,7 +13,7 @@ class SettingSeeder extends Seeder
     public function run()
     {
         $setting = new Setting;
-        $setting->title = 'Song XZ';
+        $setting->title = 'SoundXZ';
         $setting->image ='images/logo.png';
         $setting->link = 'www.fb.com';
         $setting->save();

@@ -18,5 +18,7 @@ class DatabaseSeeder extends Seeder
           $this->call(CountoriesSeeder::class);
            $this->call(CitySedder::class);
            $this->call(SongPrice::class);
+           $this->call(CategorySeeder::class);
+
     }
 }
